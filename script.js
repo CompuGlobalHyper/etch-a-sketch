@@ -11,7 +11,6 @@ for (let i = 0; i < (size ? size : 16); i++){
     for (let j = 0; j < (size ? size : 16); j++){
         let div = document.createElement("div")
         div.classList.add("pixel")
-        div.textContent = `${j + 1}`
         flexDiv.appendChild(div)
     }
 }
@@ -39,7 +38,6 @@ button.addEventListener('click', () => {
         for (let j = 0; j < (size ? size : 16); j++){
             let div = document.createElement("div")
             div.classList.add("pixel")
-            div.textContent = `${j + 1}`
             flexDiv.appendChild(div)
         }
     }
